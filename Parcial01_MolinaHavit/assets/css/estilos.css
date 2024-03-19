@@ -1,0 +1,43 @@
+ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+    background-color: #c91919;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    color: white;
+    display: block;
+    padding: 14px 16px; /* Arriba y abajo 14, izquierda y derecha 16 */
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #f01d1d68;
+  }
+  
+  .activo {
+    background-color: #e31a1a;
+  }
+  
+  .derecha {
+    float: right;
+  }
+  
+  .miJumbo {
+    margin-top: 1rem;
+    padding: 32px 16px;
+    background-color: #ec1722;
+    border-radius: 0.5rem;
+    text-align: center;
+    color: aliceblue;
+  }
+
+  .fondo {
+    background-color: rgb(232, 236, 239);
+  }
